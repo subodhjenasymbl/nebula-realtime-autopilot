@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nebula_realtime_autopilot"
+version = "0.0.1"
+description = "Symbl.ai Realtime Autopilot for Nebula"
+authors = [{ name = "Subodh Jena", email = "jenasubodh@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+homepage = "https://github.com/subodhjenasymbl/nebula_realtime_autopilot"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Bug Tracker = "https://github.com/subodhjenasymbl/nebula_realtime_autopilot/issues"
