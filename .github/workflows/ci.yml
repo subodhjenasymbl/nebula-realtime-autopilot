@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          pip install -r dev-requirements.txt
+          pip install -r requirements-dev.txt
 
       - name: Run Linting
         run: python -m pylint nebula_realtime_autopilot
