@@ -35,7 +35,7 @@ Replace the above example with more complex and practical use cases pertinent to
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/rammerai/nebula_realtime_autopilot.git
+   git clone https://github.com/subodhjenasymbl/nebula_realtime_autopilot.git
    ```
 
 2. **Install dependencies**:
@@ -98,4 +98,4 @@ Nebula Realtime Autopilot is released under the MIT License. See the `LICENSE` f
 
 ---
 
-For more information, visit our [GitHub Repository](https://github.com/rammerai/nebula_realtime_autopilot).
+For more information, visit our [GitHub Repository](https://github.com/subodhjenasymbl/nebula_realtime_autopilot).
