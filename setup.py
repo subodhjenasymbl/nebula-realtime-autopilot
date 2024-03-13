@@ -14,7 +14,7 @@ setup(
     description="Symbl.ai Realtime Autopilot for Nebula",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/subodhjena/nebula_realtime_autopilot",
+    url="https://github.com/subodhjenasymbl/nebula_realtime_autopilot",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -22,6 +22,6 @@ setup(
         "Development Status :: 3 - Alpha",
     ],
     project_urls={
-        "Bug Tracker": "https://github.com/subodhjena/nebula_realtime_autopilot/issues",
+        "Bug Tracker": "https://github.com/subodhjenasymbl/nebula_realtime_autopilot/issues",
     },
 )
