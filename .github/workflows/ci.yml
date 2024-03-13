@@ -30,7 +30,13 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Run Linting
-        run: python -m pylint nebula_realtime_autopilot
+        run: python build.py lint
+
+      - name: Run Safety Checks
+        run: python build.py safety
 
       - name: Run Tests
-        run: python -m pytest
+        run: python build.py test
+
+      - name: Run Coverage
+        run: python build.py coverage

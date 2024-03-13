@@ -44,4 +44,7 @@ if __name__ == "__main__":
                 "Invalid task. Please specify 'lint', 'test', 'coverage', or 'safety'."
             )
     else:
-        print("No task specified. Please specify a task to run.")
+        run_lint()
+        run_safety()
+        run_test()
+        run_coverage()
