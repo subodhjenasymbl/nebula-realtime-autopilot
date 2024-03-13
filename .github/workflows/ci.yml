@@ -1,0 +1,36 @@
+name: "CI"
+
+on:
+  push:
+    branches:
+      - main
+      - "feature/**"
+      - "bugfix/**"
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build_test_and_lint:
+    name: "Build, Test, and Lint"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -r dev-requirements.txt
+
+      - name: Run Linting
+        run: python -m pylint nebula_realtime_autopilot
+
+      - name: Run Tests
+        run: python -m pytest
