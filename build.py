@@ -10,9 +10,9 @@ def run_command(command):
 
 
 def run_lint():
-    run_command(["python", "-m", "black", "analyst"])
-    run_command(["python", "-m", "isort", "analyst"])
-    run_command(["python", "-m", "pylint", "analyst"])
+    run_command(["python", "-m", "black", "nebula_realtime_autopilot"])
+    run_command(["python", "-m", "isort", "nebula_realtime_autopilot"])
+    run_command(["python", "-m", "pylint", "nebula_realtime_autopilot"])
 
 
 def run_test():
