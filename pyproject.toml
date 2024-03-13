@@ -19,4 +19,4 @@ classifiers = [
 requires-python = ">=3.8"
 
 [project.urls]
-Bug Tracker = "https://github.com/subodhjenasymbl/nebula_realtime_autopilot/issues"
+bug_tracker = "https://github.com/subodhjenasymbl/nebula_realtime_autopilot/issues"
