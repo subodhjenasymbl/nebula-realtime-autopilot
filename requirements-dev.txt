@@ -1,5 +1,5 @@
 # DEV REQUIREMENTS
-black==24.2.0
+black==24.3.0
 debugpy==1.8.1
 isort==5.13.2
 pytest==8.0.2
